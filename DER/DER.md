@@ -4,7 +4,7 @@
 
 Os clientes de uma loja de brinquedos são cadastrados por nome, endereço, cep, telefone e CPF. Os brinquedos que eles compram estão identificadas por código, tipo, marca, tamanho e preço. É registrada a data de compra do brinquedo. A compra é autorizada por funcionários, que são contratados por nome, código e data de admissão. 
 
- 
+<img src="DER/Imagens/UniversoLojadeBrinquedos.png"></img>
 
 ## 2) 
 
