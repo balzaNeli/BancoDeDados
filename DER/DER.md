@@ -14,7 +14,8 @@ Os funcionários são cadastrados por CPF, nome, endereço, fones, cargo e salá
 
 Os projetos são solicitados pelos clientes da firma que são cadastrados por um código, nome, endereço e fones. 
 
- 
+ <img width="783" height="439" alt="image" src="https://github.com/user-attachments/assets/5536ece7-f248-4702-8df4-6b841b28f57a" />
+
 
 ## 3) 
 
