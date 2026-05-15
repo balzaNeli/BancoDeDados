@@ -26,3 +26,5 @@ Os jogadores desses times possuem como atributos código, nome, data de nascimen
 Um contrato faz a associação entre os times e seus jogadores, devem ser armazenados o número do contrato, a data, o valor base e o tempo de duração. Esses contratos devem ser registrados nos cartórios (número do cartório, nome, tipo, endereço, cidade e fone). 
 
 Os times de futebol possuem convênios com escolinhas (código, nome, endereço, cidade, especialidade) e as escolinhas promovem em certas datas uma série de eventos (código, descrição, finalidade, localização). 
+
+<img src="./Imagens/UniversoAssociacaoEsportiva.png"></img>
