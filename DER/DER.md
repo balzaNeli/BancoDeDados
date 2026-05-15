@@ -4,7 +4,7 @@
 
 Os clientes de uma loja de brinquedos são cadastrados por nome, endereço, cep, telefone e CPF. Os brinquedos que eles compram estão identificadas por código, tipo, marca, tamanho e preço. É registrada a data de compra do brinquedo. A compra é autorizada por funcionários, que são contratados por nome, código e data de admissão. 
 
-<img src="./Imagens/UniversoLojadeBrinquedos.png"></img>
+<img src="./Imagens/UniversoLojaDeBrinquedos.png"></img>
 
 ## 2) 
 
@@ -14,7 +14,6 @@ Os funcionários são cadastrados por CPF, nome, endereço, fones, cargo e salá
 
 Os projetos são solicitados pelos clientes da firma que são cadastrados por um código, nome, endereço e fones. 
 
- <img width="783" height="439" alt="image" src="https://github.com/user-attachments/assets/5536ece7-f248-4702-8df4-6b841b28f57a" />
 
 
 ## 3) 
