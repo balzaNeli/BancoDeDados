@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Escola_brModelo3>
+  <entidades>
+    <entidade cor="-15967628" nome="Clientes" posX="120" posY="230">
+      <atributos>
+        <atributo chave="true" multivalorado="false" nome="cpf" opcional="false" posX="60" posY="310"/>
+        <atributo chave="false" multivalorado="false" nome="nome" opcional="false" posX="40" posY="270"/>
+        <atributo chave="false" multivalorado="false" nome="cep" opcional="false" posX="60" posY="250"/>
+        <atributo chave="false" multivalorado="false" nome="endereco" opcional="false" posX="100" posY="240"/>
+        <atributo chave="false" multivalorado="false" nome="telefone" opcional="false" posX="140" posY="240"/>
+      </atributos>
+    </entidade>
+    <entidade cor="-15967628" nome="Brinquedo" posX="500" posY="230">
+      <atributos>
+        <atributo chave="true" multivalorado="false" nome="codigo" opcional="false" posX="560" posY="310"/>
+        <atributo chave="false" multivalorado="false" nome="tipo" opcional="false" posX="590" posY="280"/>
+        <atributo chave="false" multivalorado="false" nome="marca" opcional="false" posX="610" posY="260"/>
+        <atributo chave="false" multivalorado="false" nome="tamanho" opcional="false" posX="580" posY="240"/>
+        <atributo chave="false" multivalorado="false" nome="preco" opcional="false" posX="550" posY="240"/>
+      </atributos>
+    </entidade>
+    <entidade cor="-15967628" nome="funcionario" posX="300" posY="440">
+      <atributos>
+        <atributo chave="true" multivalorado="false" nome="codigo" opcional="false" posX="300" posY="520"/>
+        <atributo chave="false" multivalorado="false" nome="nome" opcional="false" posX="260" posY="510"/>
+        <atributo chave="false" multivalorado="false" nome="data_de_admissao" opcional="false" posX="360" posY="510"/>
+      </atributos>
+    </entidade>
+  </entidades>
+  <relacionamentos>
+    <relacionamento identificador="false" nome="Compra" posX="300" posY="230">
+      <atributos>
+        <atributo chave="false" multivalorado="false" nome="data_de_compra" opcional="false" posX="300" posY="150"/>
+      </atributos>
+      <participacoes>
+        <participacao cardMax="n" cardMin="1" entidade="Clientes"/>
+        <participacao cardMax="n" cardMin="1" entidade="Brinquedo"/>
+      </participacoes>
+    </relacionamento>
+    <relacionamento identificador="false" nome="Autoriza" posX="300" posY="340">
+      <atributos/>
+      <participacoes>
+        <participacao cardMax="n" cardMin="1" entidade="Compra"/>
+        <participacao cardMax="n" cardMin="1" entidade="funcionario"/>
+      </participacoes>
+    </relacionamento>
+  </relacionamentos>
+  <especializacoes/>
+</Escola_brModelo3>
